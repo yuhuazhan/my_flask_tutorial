@@ -14,11 +14,13 @@ click 6.7
 Jinja2 2-2.9.5
 MarkupSafe 1.0
 ```
+
 How to install flask 
 
 ```python=
 $ pip install Flask
 ```
+
 run flask example,in [example directory](https://github.com/yuhuazhan/my_flask_tutorial/tree/master/example)
 
 run python xxxx.py and open your browser 
