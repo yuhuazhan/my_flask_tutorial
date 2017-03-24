@@ -23,5 +23,10 @@ $ pip install Flask
 
 run flask example,in [example directory](https://github.com/yuhuazhan/my_flask_tutorial/tree/master/example)
 
-run python xxxx.py and open your browser 
+run and open your browser 
 
+```
+python hellow.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+ ```
