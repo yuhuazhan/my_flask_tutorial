@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{url_for('static',filename='css/bootstrap.min.css') }}" rel="stylesheet">
+	<link rel="shortcut icon" href="{{url_for('static',filename='favicon.ico') }}">
+	<title>Hello from Flask</title>
+</head>
+<body>
+
+<div class="container">
+	<br>
+	<h4>Hey I am a james </h4>
+	<form action="" class="from-inline" method="post">
+		<input type="text" class="form-control" placeholder = "Enter the Username" name ="username" value="{{request.form.username}}">
+		
+		<input type="text" class="form-control" placeholder = "Enter the Password" name ="password" value="{{request.form.password}}">
+		
+		<input class="btn btn-default" type="submit" value="Login">
+	</form>
+	
+	<p>{{error}}</p>
+</div>
+
+
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+
+
+</body>
+</html>

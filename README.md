@@ -25,6 +25,12 @@ run flask example,in [example directory](https://github.com/yuhuazhan/my_flask_t
 
 run and open your browser 
 
+## before run example
+
+some of example will be use static folder css or js file,so
+
+you must be copy static folder to ex-x.xxxxxx(example) folder
+  
 ```
 python hellow.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
